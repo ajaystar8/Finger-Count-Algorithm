@@ -71,6 +71,7 @@ while True:
 
     cv2.imshow("Fingers Counting Algorithm", image)
 
+    # display cam untill 'q' key pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
