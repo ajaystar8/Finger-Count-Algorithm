@@ -16,6 +16,7 @@ hands = mp_hands.Hands(static_image_mode=False, max_num_hands=2,
 mpDraw = mp.solutions.drawing_utils
 
 # for counting the number of fingers raised
+#coordinates of fingers
 finger_Coord = [(8, 6), (12, 10), (16, 14), (20, 18)]
 thumb_Coord = (4, 2)
 
