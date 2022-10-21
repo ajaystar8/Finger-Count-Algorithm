@@ -10,8 +10,7 @@ mp_hands = mp.solutions.hands
 
 # perform processing of the detected hands
 # static_image_mode => False(video format) & True(image format)
-hands = mp_hands.Hands(static_image_mode=False, max_num_hands=2,
-                       min_detection_confidence=0.5)
+hands = mp_hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_confidence=0.5)
 # for drawing hand connections and landmarks on the frame
 mpDraw = mp.solutions.drawing_utils
 
